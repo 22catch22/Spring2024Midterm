@@ -1,0 +1,133 @@
+html
+{
+max-width: 1000px;
+max-height:fit-content;
+border: 30px;
+border-style:groove;
+border-radius: 40px;
+}
+
+
+.gallary
+{width:1000px;
+ height:fit-content;
+ align-items: center;
+ text-align: center;
+ display: grid;
+ grid-template-rows: auto,auto;
+}
+
+ button
+ {
+ background-color: steelblue;
+
+
+ }
+
+img
+{
+
+height: 200px;
+padding-top: 300px;
+align-self: center;
+padding-bottom: 20px;
+}
+
+.coloroptions
+{
+height: 500px;
+width: auto;
+background-color: rgb(133, 129, 129);
+align-items: center;
+align-content: center;
+text-align: center;
+font-size:x-large;
+}
+
+#welcometext
+{
+padding-left: 100px;
+font-size:large;
+padding-right: 100px;
+}
+#optionsmenu
+{
+  display: flex;
+ 
+position: static;
+height: 43px;
+width: 1000px;
+align-items:flex-start;
+border-radius: 40px;
+background-color: rgba(131, 131, 131, 0.495);
+}
+
+#addphotobox{
+ 
+  position: relative;
+  height: auto;
+  width: auto;
+  align-items: center;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+
+.popup
+{background-color: rgb(103, 99, 99);}
+
+.menuoptions
+{
+position: static;
+height: auto;
+width: auto;
+align-items: center;
+}
+
+ 
+
+
+#photoform
+{
+
+height:auto;
+width: auto;
+background-color: rgb(68, 68, 68);
+
+}
+
+#commentbox
+{
+ 
+  width: 950px;
+  height: 100px;
+  display: inline-block;
+ 
+ 
+  align-items: center;
+  align-content: center;
+ 
+}
+#commentmessage
+{
+height:fit-content;
+width: auto;
+background-color: rgba(131, 131, 131, 0.495);
+color:black;
+}
+
+#photobox
+{
+ 
+height:500px;
+width: auto;
+display:inline-block;
+border-style: groove;
+border-color: black;
+border-radius: 30px;
+align-items: center;
+align-content: center;
+ margin-top: 10px;
+ }
+
+ 
