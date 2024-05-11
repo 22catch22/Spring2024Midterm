@@ -18,8 +18,8 @@ return(
 <div id='commentbox'>
 
 
-
-<p id='commentmessage'>{comment.UserName}{comment.Text}</p> 
+<p> {comment.UserName}</p>
+<p id='commentmessage'>{comment.Text}</p> 
 <div>
 </div>
 </div>

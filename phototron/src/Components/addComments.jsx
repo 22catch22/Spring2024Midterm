@@ -4,7 +4,7 @@ import Photos from "../photos/Photos";
 import Comments from "../photos/Comments";
 import { CommentContext } from "../App";
 function AddComments()
- 
+ //This is where we add the comments 
 {
 const {createComment} = useContext(CommentContext)
 const handysub = (e) => {e.preventDefault();
@@ -13,7 +13,7 @@ let fData = new FormData(e.target);
 
 let newComment = {
 
-    Username: fData.get("Username"),
+    UserName: fData.get("Username"),
 
     Text: fData.get("Text"),
 
